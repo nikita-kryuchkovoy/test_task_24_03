@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS dds.l_posts
+DROP TABLE IF EXISTS dds.s_letters
+DROP TABLE IF EXISTS dds.h_letters
+DROP TABLE IF EXISTS dds.h_users
+
+DROP SCHEMA IF EXISTS dds;
