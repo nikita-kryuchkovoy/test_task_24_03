@@ -1,0 +1,44 @@
+# Local development stuff
+*.env
+docker-compose.*.local.yml
+
+.DS_Store
+/.vscode/
+
+# pycharm
+.idea/
+*.iml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
